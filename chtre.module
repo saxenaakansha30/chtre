@@ -1,0 +1,29 @@
+<?php
+
+/**
+ * @file
+ * Implememts hook for implementing functionalities of CHTRE.
+ */
+
+declare(strict_types=1);
+
+/**
+ * Implements hook_theme().
+ */
+function chtre_theme() {
+  return [
+    'chtre_meter' => [
+      'variables' => [
+        'label_content' => '',
+        'content' => '',
+        'attributes' => [],
+      ],
+    ],
+    'chtre_progress' => [
+      'variables' => [
+        'content' => '',
+        'attributes' => [],
+      ],
+    ],
+  ];
+}

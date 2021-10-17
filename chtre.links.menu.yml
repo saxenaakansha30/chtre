@@ -1,0 +1,5 @@
+chtre.examples:
+  title: CHTRE Usage Examples
+  description: Cool HTML Tags Render Elements Usage Examples
+  route_name: chtre.usage_examples
+  parent: system.admin_config

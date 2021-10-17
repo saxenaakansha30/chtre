@@ -1,0 +1,17 @@
+{#
+/**
+ * @file
+ * Default theme implementation for the progress render element.
+ *
+ * Available variables:
+ * - attributes: Attributes for the progress tag.
+ * - content: The text to display within the progress tag.
+ *
+ * @ingroup themeable
+ * @ingroup chtre
+ */
+#}
+<div>
+  <label for={{ attributes.id }}>{{ content }}</label>
+  <progress {{ attributes }}>{{ content }}</progress>
+</div>

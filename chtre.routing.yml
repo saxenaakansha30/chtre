@@ -1,0 +1,6 @@
+chtre.usage_examples:
+  path: /chtre/usage-examples
+  defaults:
+    _controller: '\Drupal\chtre\Controller\TagsUsageExample::content'
+  requirements:
+    _permission: 'access usage examples'

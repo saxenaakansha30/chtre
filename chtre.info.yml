@@ -1,0 +1,4 @@
+name: Cool HTML Tags Render Elements
+description: It provides render elements of html tags which are not there in core.
+type: module
+core_version_requirement: ^9
